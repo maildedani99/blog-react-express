@@ -34,10 +34,23 @@ app.get('/posts', (req, res) => {
         }
     })
 })
-app.get('/customers/:id', (req, res) => {
+
+app.get('/icons', (req, res) => {
+    const sql = 'SELECT * FROM icons';
+
+    connection.query(sql, (error, results) => {
+        if (error) throw error;
+        if (results.length > 0) {
+            res.json(results);
+        } else {
+            res.send('Not result');
+        }
+    })
+})
+app.get('/posts/:id', (req, res) => {
     const { id } = req.params;
     console.log(req.params);
-    const sql = `SELECT * FROM customers WHERE id = ${id}`;
+    const sql = `SELECT * FROM posts WHERE id = ${id}`;
     connection.query(sql, (error, result) => {
         if (error) throw error;
         if (result.length > 0) {
