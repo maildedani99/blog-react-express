@@ -1,0 +1,23 @@
+.link_router {
+
+        color: #909194;
+
+}
+.navbar {
+        height: 200px;
+        opacity: 0.9;
+        
+}
+.navbar_title {
+        font-family: 'Architects Daughter', cursive;
+        color: #353636;
+        font-size: 50px;
+        font-weight: 600;
+}
+.buttons_div {
+        width: 400px;
+align-content: space-between;
+}
+.navbar_icon {
+        width: 150px;
+}

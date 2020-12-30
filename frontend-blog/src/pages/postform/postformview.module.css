@@ -1,0 +1,32 @@
+.__div_form {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.__select {
+    margin: 2rem 2rem;
+    width: 30%;
+    height: 3rem;
+    align-self: center;
+}
+.__input_form {
+    height: 3rem;
+    margin: 2rem 2rem;
+    width: 60%;
+    align-self: center;
+}
+
+
+.__input_form_content {
+    width: 60%;
+    height: 50%;
+    align-self: center;
+
+}

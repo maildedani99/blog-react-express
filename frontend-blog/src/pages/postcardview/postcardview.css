@@ -1,0 +1,22 @@
+.input-search {
+    border: none;
+	position: relative;
+    outline: none;
+    width: 80%;
+    margin-right: 5rem;
+}
+.input-search-div {
+    width: 300px;
+	padding: 4px;
+	max-height: auto;
+}
+.input-icon {
+    box-sizing: content-box;
+    width: auto;
+    height: 38px;
+	border: 0px;
+	position: relative;
+    top:1px;
+    margin-left: 25px;
+    margin-right: 100px;
+}
