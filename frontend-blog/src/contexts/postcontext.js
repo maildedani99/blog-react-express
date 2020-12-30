@@ -12,7 +12,7 @@ const PostsProvider = ({ children }) => {
     const [render, setRender] = useState(false);
 
     const getPosts = () => {
-      const url = 'http://localhost:8000/api/posts';
+      const url = 'http://localhost:3001/posts';
       const options = {
         method: 'GET',
         mode:'cors',
@@ -35,7 +35,7 @@ const PostsProvider = ({ children }) => {
 
 
     const getIcons = () => {
-        const url = 'http://localhost:8000/api/icons';
+        const url = 'http://localhost:3001/icons';
         const options = {
           method: 'GET',
         mode:'cors',

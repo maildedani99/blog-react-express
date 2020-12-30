@@ -8,7 +8,7 @@ const IconsProvider = ({ children }) => {
     const [icons, setIcons] = useState (['']);
 
     const getIcons = () => {
-      const url = 'http://localhost:8000/api/icons';
+      const url = 'http://localhost:3001/icons';
       const options = {
         method: 'GET',
         mode:'cors',
