@@ -8,7 +8,7 @@ const IconsProvider = ({ children }) => {
     const [icons, setIcons] = useState (['']);
 
     const getIcons = () => {
-      const url = 'http://localhost:3001/icons';
+      const url = 'https://safe-woodland-96010.herokuapp.com/api/icons';
       const options = {
         method: 'GET',
         mode:'cors',

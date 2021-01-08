@@ -41,8 +41,8 @@ let resultArray = ['']
       <div className={styles.__postcardview_div}>
         <div className={styles.__div_search}>
            
-          <input className=" form-control" type="text" name="search" placeholder="Busca lo que necesitas..." onChange={handleSearchChange} />
-            <img className="input-icon" src={icon} alt="icon" onClick={searchClick} />          
+          {/* <input className=" form-control" type="text" name="search" placeholder="Busca lo que necesitas..." onChange={handleSearchChange} />
+            <img className="input-icon" src={icon} alt="icon" onClick={searchClick} />     */}      
             <select className="form-control col-3 align-self-center mb-5" onChange={handleSelectChange}>
             <option
               className={styles.__option}

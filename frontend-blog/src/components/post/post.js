@@ -83,7 +83,7 @@ const Post = (props) => {
         </div>
         <div className={styles.__post_button_div}>
           <Link to={POSTUPDATEBYID + id}>
-            <Button type="button" value="Modificar Post" disabled="true" />
+            <Button type="button" value="Modificar Post" disabled="true" disabled/>
           </Link>
         </div>
       </div>

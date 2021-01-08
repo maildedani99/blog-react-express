@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59c3dc16.chunk.css",
+    "main.js": "/static/js/main.b9196ea2.chunk.js",
+    "main.js.map": "/static/js/main.b9196ea2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.94a9de42.js",
+    "runtime-main.js.map": "/static/js/runtime-main.94a9de42.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.b6509904.chunk.js": "/static/js/2.b6509904.chunk.js",
+    "static/js/2.b6509904.chunk.js.map": "/static/js/2.b6509904.chunk.js.map",
+    "static/js/3.09ebeffc.chunk.js": "/static/js/3.09ebeffc.chunk.js",
+    "static/js/3.09ebeffc.chunk.js.map": "/static/js/3.09ebeffc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.59c3dc16.chunk.css.map": "/static/css/main.59c3dc16.chunk.css.map",
+    "static/js/2.b6509904.chunk.js.LICENSE.txt": "/static/js/2.b6509904.chunk.js.LICENSE.txt",
+    "static/media/css.985ad712.png": "/static/media/css.985ad712.png",
+    "static/media/docker.ecda3335.png": "/static/media/docker.ecda3335.png",
+    "static/media/js.39fe16f9.png": "/static/media/js.39fe16f9.png",
+    "static/media/laravel.8b2939ca.png": "/static/media/laravel.8b2939ca.png",
+    "static/media/mysql.0b7b66c2.png": "/static/media/mysql.0b7b66c2.png",
+    "static/media/nodejs.1a8295f2.png": "/static/media/nodejs.1a8295f2.png",
+    "static/media/proweb21_logo.76e0dd5d.png": "/static/media/proweb21_logo.76e0dd5d.png",
+    "static/media/react.add74742.svg": "/static/media/react.add74742.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94a9de42.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.b6509904.chunk.js",
+    "static/css/main.59c3dc16.chunk.css",
+    "static/js/main.b9196ea2.chunk.js"
+  ]
+}

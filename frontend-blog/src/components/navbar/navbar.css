@@ -1,17 +1,14 @@
+@media all and (min-width: 1200px) {
 .link_router {
-
         color: #909194;
-
 }
 .navbar {
         height: 150px;
-        opacity: 0.9;
-        
-}
+       }
 .navbar_title {
         font-family: 'Architects Daughter', cursive;
         color: #353636;
-        font-size: 50px;
+        font-size: 45px;
         font-weight: 600;
 }
 .buttons_div {
@@ -20,4 +17,27 @@ align-content: space-between;
 }
 .navbar_icon {
         width: 200px;
+}
+}
+
+@media  all and (min-width: 768px) and (max-width: 1200px) {
+.link_router {
+        color: #909194;
+}
+.navbar {
+        height: 150px;
+       }
+.navbar_title {
+        font-family: 'Architects Daughter', cursive;
+        color: #353636;
+        font-size: 35px;
+        font-weight: 600;
+}
+.buttons_div {
+        width: 300px;
+align-content: space-between;
+}
+.navbar_icon {
+        width: 150px;
+}
 }

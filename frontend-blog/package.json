@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
+  "homepage": "https://www.proweb21.com/",
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^23.1.0",
     "@ckeditor/ckeditor5-react": "^3.0.0",

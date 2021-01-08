@@ -12,7 +12,7 @@ const PostsProvider = ({ children }) => {
     const [render, setRender] = useState(false);
 
     const getPosts = () => {
-      const url = 'http://localhost:3001/posts';
+      const url = 'https://safe-woodland-96010.herokuapp.com/api/posts';
       const options = {
         method: 'GET',
         mode:'cors',
@@ -35,7 +35,7 @@ const PostsProvider = ({ children }) => {
 
 
     const getIcons = () => {
-        const url = 'http://localhost:3001/icons';
+        const url = 'https://safe-woodland-96010.herokuapp.com/api/icons';
         const options = {
           method: 'GET',
         mode:'cors',
