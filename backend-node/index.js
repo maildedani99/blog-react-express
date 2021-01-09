@@ -8,7 +8,6 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 
-app.use(cors()); 
 
 app.use(bodyParser.json());
 
@@ -19,9 +18,13 @@ const connection = mysql.createConnection({
     password: 'Kar3lapp3l',
     database: 'guiadb'
 });
+
+
+app.use(cors()); 
+console.log("backend running")
 //route
 app.get('/api/welcome', (req, res) => {
-    res.send('Welcome to my API');
+    res.send('Welcome to my API2');
 })
 //clientes
 app.get('/api/posts', (req, res) => {
@@ -49,7 +52,7 @@ app.get('/api/icons', (req, res) => {
         }
     })
 })
-/* app.get('/posts/:id', (req, res) => {
+app.get('/posts/:id', (req, res) => {
     const { id } = req.params;
     console.log(req.params);
     const sql = `SELECT * FROM posts WHERE id = ${id}`;
@@ -62,7 +65,7 @@ app.get('/api/icons', (req, res) => {
         }
     })
 
-})*/
+})
 
 /* app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname+'/client/build/index.html'));
@@ -73,18 +76,18 @@ app.get('/api/icons', (req, res) => {
 app.listen(port);
 
 console.log(`Password generator listening on ${port}`);
-/* app.post('/add', (req, res) => {
-    const sql = 'INSERT INTO customers SET ?';
-    const customerObj = {
+app.post('/add', (req, res) => {
+    const sql = 'INSERT INTO posts SET ?';
+    const postObj = {
         first_name: req.body.first_name,
         last_name: req.body.last_name,
         city: req.body.city,
-    } */
-    /* connection.query(sql, customerObj, error => {
+    }
+    connection.query(sql, postObj, error => {
         if (error) throw error;
         res.send('Customer Created!');
     })
-    }); */
+    });
 
 
 

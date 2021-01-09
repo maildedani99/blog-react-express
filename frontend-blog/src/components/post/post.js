@@ -77,13 +77,12 @@ const Post = (props) => {
           <Button
             type="button"
             value="Eliminar Post"
-            disabled="true"
             onClick={deletePost}
           />
         </div>
         <div className={styles.__post_button_div}>
           <Link to={POSTUPDATEBYID + id}>
-            <Button type="button" value="Modificar Post" disabled="true" disabled/>
+            <Button type="button" value="Modificar Post"  />
           </Link>
         </div>
       </div>
